@@ -1,0 +1,29 @@
+#frame1{ 
+    width: 600px; 
+    height: 1000px;
+}
+#frame1{
+        -ms-zoom: 0.5;
+        -moz-transform: scale(0.5);
+        -moz-transform-origin: 0 0;
+        -o-transform: scale(0.5);
+        -o-transform-origin: 0 0;
+        -webkit-transform: scale(0.5);
+        -webkit-transform-origin: 0 0;
+}
+iframe{
+	float:left;
+    border:none;
+    display:block;
+}
+#frame2{
+	z-index:200;
+	position: absolute;
+	margin-left:350px;
+	padding:70px 0;
+}
+#iframe_box{
+	overflow:hidden;
+	width:80%;
+	height:500px;	
+}

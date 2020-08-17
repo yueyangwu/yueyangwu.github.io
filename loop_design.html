@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Yueyang Wu - Portfolio</title>
+    <meta charset="utf-8"> 
+    <link href="image/index/w.png" rel="icon" type="image/png" size="16*16" />
+    <link href="libs/jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet" type="text/css">
+    <link href="libs/bootstrap/css/bootstrap.css" rel="stylesheet"/>   
+    <link href="libs/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="libs/swiper/swiper.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+    <script src="libs/jquery-3.1.1.min.js"></script>
+    <script src="libs/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+    <script src="libs/swiper/swiper.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src='libs/bootstrap/js/bootstrap.min.js'></script>
+</head>
+<body>
+<div class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a class="image-link" href="index.html">
+                <!--<img src="image/index/W.png" width="40" style="margin-right: 10px;">-->
+                <span>YUEYANG WU</span>
+            </a>
+            <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div id="navbar-main" class="navbar-collapse collapse">
+            <div class="navigation">
+                <div id="projects"><a href="index.html#st-panel-1">PORTFOLIO</a></div>
+                <div id="art"><a href="art.html">ART</a></div>
+                <div id="about"><a href="index.html#st-panel-2">ABOUT ME</a></div>
+                <div id="resume"><a href="index.html#st-panel-3">RESUME</a></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="content_wide">
+    <div class="page-header container">
+        <div class="row">
+            <div class="col-xs-10 col-sm-10">
+                <p class="title">LOOP Design</p>
+            </div>
+            <div class="col-xs-2 col-sm-2">
+                <button id="backBtn">
+                    <a href="index.html"><i class="fa fa-angle-left" aria-hidden="true" style="margin-right: 5px;"></i>Back</a>
+                </button>
+            </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <p class="subtitle">UX design projects</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <p>Smith&Associates is a leading supplier of CPUs, memory, integrated circuits, and other electronic components. The typical transaction consists of two parts: A Smith trader reach out to the customer, and then Smith buyers buy the parts from the vendor.</p>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="content_wide">
+    <div class="row">
+        <div class="col-xs-12 col-sm-4 text-center">
+          <div id="team">
+            <ul target="nonlist">
+              <li>Team Size</li>
+              <li>3</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 text-center">
+          <div id="role">
+            <ul target="nonlist">
+              <li>My Role</li>
+              <li>Researcher</li>
+              <li>UX Designer</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4 text-center">
+          <div id="bestpractice">
+            <ul target="nonlist">
+              <li>Activities</li>
+              <li>User Research</li>
+              <li>Usability Testing</li>
+              <li>Low-fi wireframes</li>
+              <li>High-fi mockups</li>
+            </ul>
+          </div>
+        </div>
+    </div>
+</div>
+<div class="space"></div>
+<hr>
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+<div class="content_wide">
+  <div id="heading">UX Improvement Examples</div>
+  <p class="subheading1">CASE 1: PO/SO Allocation in CRM</p>
+
+  <p class="subheading2">Goal</p>
+  <p>The task for our design team is to do a redesign of the existing PO/SO allocation to make sure the parts come into Smith inventory can go to the correct trader's sales order.</p>
+  <br>
+  <p class="subheading2">Challenge</p>
+  <p class="subheading3">1. Multiple user groups need different information</p>
+  The allocation process is done by buyers, traders and admin team to identify which orders of PO/SO are allocated with each other. Different user groups view allocation in different ways. We need to identify and show all key information that our users care about in the allocation process.<br>
+  <p class="subheading3">2. Try not to create new pages</p>
+  IT team agrees that this implementation should use as much exisiting CRM pages to maximize use. The goal is to analyze current user workflows and enhance them to include allocation so that it will stay in the place where all user groups feel comfortable with.
+  <div id="subheading1">The current PO/SO allocation in CRM</div>
+  <br>
+  <p class="subheading2">How people do allocation now</p>
+  <img alt="" src="image/loop/old_association.gif"/ width="100%">
+  <p>We interviewed commodity manager, inventory management team, PPV team to understand their current workflow and frustrations during the PO/SO allocation process. We find out that the current PO/SO allocation is <b>not part of the process</b>. The trader might tell Asia to buy the parts last night to secure them, and they put in the SO in the next day. Buyers don't have the chance to allocate to a SO because the SO wasn't there.</p>
+  <img alt="" src="image/loop/spec_association.gif"/ width="100%">
+  <div class="both">
+    <img style="display: inline-block;" alt="" src="image/loop/spec_draw.jpg"/ width="40%">
+    <p style="display: inline-block; margin-left: 20px; width:400px; height:100%">For PPV team, they buy large amount of parts based on analysis without the request from a sales order. The current PPV analyst would <b>write down</b> all the sales orders and the avaliable purchase orders for a part and try to link them based on the priority so that POs that have the <b>earliest arrival date</b> can be matched to SOs that have the <b>earliest shipping date</b>. </p>
+  </div>
+  <div class="space"></div>
+  <div class="subheading2">Prototype</div>
+  <p> To begin with, we decided to have the PO/SO in the PO create, SO Monitor screens to make PO/SO allocation part of the process. When the user is on the PO listing screen, the right drawer brings up related SOs. When the user is on the SO listing screen, the right drawer brings up related POs. In the current association, users only able to do the allocation of inbound purchase orders. The new PO/SO allocation should able to see POs that are both inbound and in stock. After the low-fidelity wireframes are created, I met with users to confirm all the information they care about is shown on the two views and iterate the design based on user feedback. </p>
+  <br>
+  <img alt="" src="image/loop/lowfi_poso.png"/ style="display: block; margin: 0 auto; width: 80%">
+  <br>
+  <img alt="" src="image/loop/drawer2.gif"/ style="display: block; margin: 0 auto; width: 80%">
+  <br>
+  <div class="subheading2">Future Work</div>
+  We would consider more about how to request to change allocation and allow approval process to make changes by commodity manager. Alerts when SO/PO has been canceled/pushed back/late. Having allocation in more pages like: part search, PO edit, My PO, SO create.
+  <div class="space"></div>
+
+  <p class="subheading1">CASE 2: Requirement redesign for buyer app</p>
+  <p class="subheading2">The goal: Define the filters and listing view</p>
+  <div class="both">
+  <p style="display: inline-block; width:400px; height:100%">The requirement listing for traders' app is on the right. Buyers view the requirement in a different way so that we need to redesign the requirement to fit the buyers need.</p>
+  <img alt="" src="image/loop/trader_requirement.png"/ style="display: inline-block; margin-left: 20px;" width="20%">
+  </div>
+  <br>
+  <p class="subheading2">Testing and iterate the design</p>
+  <div class="both">
+  <p style="display: inline-block; width:400px; height:100%">Based on the research feedback, we were able to define a rough idea about the filter and sorting options. Buyers deal with requirement by requirement line so that we decided to use a line view on buyers app. I tested the low fidelity wireframe with the buyers and ask their preferance on the filters and sorting options.</p>
+  <img alt="" src="image/loop/lowfi_req.jpg"/ style="display: inline-block; margin-left: 20px;" width="40%">
+  </div>
+  <br>
+  <img alt="" src="image/loop/req_interview.png"/ style="display: inline-block; margin-left: 20px;" width="80%">
+  <br>
+  <p class="subheading2">Deliverable</p>
+  <div class="both">
+  <img alt="" src="image/loop/req_filters.gif"/ style="display: inline-block; margin-left: 20px;" width="20%">
+  <img alt="" src="image/loop/custom_filter.gif"/ style="display: inline-block; margin-left: 20px; " width="20%">
+  </div>
+</div>
+
+<div id="site_footer">
+    <a href="https://www.linkedin.com/in/yueyangwu"><img alt="" src="image/index/linkedin.png" width="32"></a>
+    <a href="https://github.com/yueyangwu"><img alt="" src="image/index/github.png" width="32"></a>
+    <a href="https://www.instagram.com/yueywu/"><img alt="" src="image/index/insta.png" width="32"></a>
+    <br>
+    Designed & Developed by Yueyang Wu
+    <br>
+    &copy; 2017
+</div>
+</body>
+</html>

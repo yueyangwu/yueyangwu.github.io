@@ -1,0 +1,207 @@
+/*navbar*/
+.image-link {
+    display: inline-block;
+    vertical-align: bottom;
+}
+.navbar-header a{
+    margin-top: 22px;
+}
+.navbar-header a img{
+    display: inline-block;
+}
+a span{
+    font-weight: 700;
+    font-size: 20px;
+    display: inline-block;
+}
+.navbar-header a:link, .navbar-header a:visited, .navbar-header a:active{
+    color:#000;
+    text-decoration: none!important;
+}
+.navigation a:link, .navigation a:visited, .navigation a:active{
+    color:#555;
+    text-decoration: none;
+    font-size:12px;
+}
+.navigation a:hover{
+    color:#ababab;
+}
+.navigation{
+    float:right;
+    margin-top:20px;
+}
+#projects,#art,#about,#resume{
+    float:left;
+    margin-left:55px;
+}
+/*button*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #000000; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    border-radius: 20px; /* Rounded corners */
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+#backBtn{
+    display: block;
+    border:1px solid black;
+    border-radius: 15px;
+    width:90px;
+    height:30px;
+    text-align:center;
+    display: block;
+    background-color: transparent; 
+}
+#button{
+    display: block;
+    border:5px solid black;
+    width:150px;
+    height:40px;
+    text-align:center;
+    display: block;
+}
+/*content*/
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFFFFF;
+}
+.small-box{
+    width: 16%;
+    display:inline-block;
+    position: relative;
+}
+.small-box:hover{
+    transform:scale(1.2);
+    z-index: 200;
+}
+.content_bottom{
+    margin:0 auto;
+}
+.content_text{
+    margin:0 auto;
+    width:80%;
+}
+.content_doc{
+    margin-bottom:30px;
+}
+.content_wide{
+    margin:0 auto;
+    width:80%;
+    max-width: 800px;
+}
+.content_img{
+    margin:50px 0px 50px 0px;
+}
+.title{
+    font-size:60px;
+    color:#000;
+    line-height: 50px;
+    font-weight: 500!important;
+}
+.subtitle{
+    font-size:24px;
+    padding:20px 0px 20px 0px;
+    color:#999;
+    font-weight: 500!important;
+}
+#role,#team,#bestpractice{
+    display: inline-block;
+    vertical-align: top;
+}
+ul[target=nonlist]{
+    list-style-type: none;
+}
+li{
+    text-align: left;
+}
+ul[target=nonlist] li:first-child{
+    font-weight: 500!important;
+    margin-bottom: 10px;
+}
+.space{
+    margin-bottom: 50px;
+}
+#heading{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700!important;
+    margin-bottom: 80px;
+}
+.subheading1{
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: 700!important;
+}
+.subheading2{
+    font-weight: 700!important;
+    margin-bottom: 10px;
+}
+.subheading3{
+    font-weight: 500!important;
+    margin-bottom: 10px;
+}
+a:link, a:visited, a:active{
+    color:black !important;
+    text-decoration: none;
+    font-size:20px;
+}
+.video{
+    margin:30px auto;
+    width:560px;
+}
+.container{
+    max-width: 900px!important;
+}
+.text-center{
+    text-align:center;
+}
+.both > *{
+vertical-align:top;
+}
+/*footer*/
+#site_footer{
+    text-align:center;
+    margin:0 auto;
+    padding:100px 0px 100px 0px;
+    font-size:12px;
+}
+#site_footer img{
+    margin:10px;
+}
+button{
+    font-weight:500;
+}
+/*main*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4,
+ h5, h6, pre, code, form, fieldset, legend, input,
+textarea, p, blockquote, th, td, a{
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    font-weight:300;
+    color:#000;
+}

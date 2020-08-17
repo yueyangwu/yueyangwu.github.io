@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Yueyang Wu's website</title>
+	<meta charset="utf-8"> 
+	<link href="image/index/w.png" rel="icon" type="image/png" size="16*16" />
+  <link href="libs/jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet" type="text/css">
+  <link href="libs/bootstrap/css/bootstrap.css" rel="stylesheet"/>   
+  <link href="libs/font-awesome-4.3.0/css/font-awesome.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/hci.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="libs/swiper/swiper.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+  <script src="libs/jquery-3.1.1.min.js"></script>
+  <script src="libs/jquery-ui-1.12.1/jquery-ui.min.js"></script>
+  <script src="libs/swiper/swiper.min.js"></script>
+  <script src="js/swiper.js"></script>
+  <script src='libs/bootstrap/js/bootstrap.min.js'></script>
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="image-link" href="index.html">
+                    <!--<img src="image/index/W.png" width="40" style="margin-right: 10px;">-->
+                    <span>YUEYANG WU</span>
+                </a>
+                <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div id="navbar-main" class="navbar-collapse collapse">
+                <div class="navigation">
+                    <div id="projects"><a href="index.html#st-panel-1">PROJECTS</a></div>
+                    <div id="art"><a href="art.html">ART</a></div>
+                    <div id="about"><a href="index.html#st-panel-2">ABOUT ME</a></div>
+                    <div id="resume"><a href="index.html#st-panel-3">RESUME</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="content_wide">
+      <div class="page-header">
+        <row>
+        <div class="col-xs-10">
+          <p class="title">UTogether</p>
+        </div>
+        <div class="col-xs-2">
+          <button id="backBtn">
+            <a href="index.html"><i class="fa fa-angle-left" aria-hidden="true" style="margin-right: 5px;"></i>Back</a>
+          </button>
+        </div>
+        </row>
+        <p class="subtitle">A smartphone application, facilitates short-term meetups for UT students</p>
+      </div>
+      <p>
+      Many international students at UT want to make friends with other UT students so they joined events host by International Student and Scholar Services(ISSS) or other organizations on campus. ISSS offers friendship program and PALS program which matches international students with Austin community for an intercultural exchange of customs and lifestyles. 
+      However, arranging strangers in meetings is challenging. A more streamlined app, one that specifically addresses the challenges of on-the-fly social events, could ease this audience’s troubles.
+      </p>
+    </div>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fa-arrow-up" aria-hidden="true"></i></button>
+    <div class="content_wide">
+      <div class="row">
+        <div class="col-xs-12 col-sm-4">
+          <div id="team">
+            <ul>
+              <li>Team</li>
+              <li>Shishu Yang</li>
+              <li>Yueyang Wu</li>
+              <li>Zane Jungman</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div id="role">
+            <ul>
+              <li>My Role</li>
+              <li>User Researcher</li>
+              <li>Interaction Designer</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-xs-12 col-sm-4">
+          <div id="bestpractice">
+            <ul>
+              <li>Best Practice</li>
+              <li>Interview</li>
+              <li>Workflow</li>
+              <li>Prototyping</li>
+              <li>Interaction Design</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="content_wide">
+      <div id="heading">Gather and Analysis Data</div>
+      <br>
+      <ul>
+        <li>Interview Goals</li>
+        <li>Identify common obstacles</li>
+        <li>Learn process for event planning</li>
+        <li>Learn common practices and metaphors</li>
+      </ul>
+      <div class="content_img">
+        <img alt="" src="image/hci/application.png" width="100%">
+      </div>
+      <p>
+        Members of the ISSS organizations, from the PALS program to the Friendship Program, will provide insight into match-making, public outreach, and other niches our social app could address. We arranged a meeting with ISSS coordinators to get more information about how their program works.
+      </p>
+    </div>
+    <hr>
+    <div class="content_text">
+    <div id="heading">Extract Initial Concept</div>
+    <br>
+    <p>
+      After the interview, we organized our notes, creating affinity maps and analyzing the result. To be more clear about what the students and event host needs.
+    </p>
+    </div>
+    <div class="content_img">
+      <img alt="" src="image/hci/waad.png" width="100%">
+    </div>
+    <hr>
+    <div class="content_wide">
+      <div id="heading">Personas</div>
+      <br>
+      <div class="content_img">
+        <img alt="" src="image/hci/persona.png" style="display: block; margin: 0 auto; width: 100%">
+      </div>
+    </div>
+    <hr>
+    <!--
+    <div id="heading">Requirements Models</div>
+    <br> -->
+    <!-- Slider main container -->
+    <!--
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img class="content_wide" alt="" src="image/hci/information_flow.png"></div>
+            <div class="swiper-slide"><img class="content_wide" alt="" src="image/hci/work-flow.png"></div>
+            <div class="swiper-slide"><img class="content_wide" alt="" src="image/hci/work_roles_model.png"></div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-scrollbar"></div>
+    </div>
+    <br>
+    <br>
+    <hr>
+    -->
+    <div class="content_wide">
+      <div id="heading">Storyboard</div>
+      <br>
+      <p>
+        I drew the storyboard to help the team get a better understanding of how the user use the app. It tells story about how UTogether could help with arranging meeting planning and participant gathering in seconds. An initial user(the host) proposes an activity (coffee, jogging, chat, etc.) and timeframe. Users(the participants) search posted events with this metadata, or the app can pair compatible users automatically.
+      </p>
+      <br>
+      <div class="content_img">
+        <img alt="" src="image/hci/storyboard.png" width="100%">
+      </div>
+    </div>
+    <hr>
+    <div class="content_wide">
+      <div id="heading">Ideation</div>
+      <br>
+      <p>
+        After defining the main functions, we start to sketch out a low fidelity paper prototype which is quick and easy for modifications. 
+      </p>
+      <div class="content_img">
+        <img alt="" src="image/hci/ideation.png" width="100%">
+      </div>
+    </div>
+    <hr>
+    <div class="content_wide">
+      <div id="heading">UI</div>
+      <br>
+      <a id="button" href="http://vf2z0s.axshare.com" style="display: block; margin: 0 auto;">Axure Link</a>
+      <div class="content_img">
+        <img alt="" src="image/hci/extract.png" width="100%">
+      </div>
+    </div>
+    <hr>
+    <div class="content_wide">
+      <div id="heading">Continued Development</div>
+      <br>
+      <a id="button" href="https://aqueous-shelf-60536.herokuapp.com/" style="display: block; margin: 0 auto;">Website Link</a>
+      <br>
+      <p>
+        After the finish of the app prototype design, I continued on the development of UTogether website, using nodejs and express framework. Although the website is still under development, it aims at sharing similiar features of it's app version.
+      </p>
+    </div>
+<div class="content_wide">
+  <div class="small-box">
+    <a href="#">
+      <img class="img-responsive" src="image/index/UTogether-s.png" width="100%">
+    </a>
+  </div><!--
+  --><div class="small-box">
+    <a href="teams.html">
+      <img class="img-responsive" src="image/index/TEAMS-s.png" width="100%">
+    </a>
+  </div><!--
+  --><div class="small-box">
+    <a href="vr.html">
+      <img class="img-responsive" src="image/index/Virtually Young-s.png" width="100%">
+    </a>
+  </div><!--
+  --><div class="small-box">
+    <a href="tars.html">
+      <img class="img-responsive" src="image/index/Tars-s.png" width="100%">
+    </a>
+  </div><!--
+  --><div class="small-box">
+    <a href="search.html">
+      <img class="img-responsive" src="image/index/Yangle-s.png" width="100%">
+    </a>
+  </div>
+</div>
+<div id="site_footer">
+<a href="https://www.linkedin.com/in/yueyangwu"><img alt="" src="image/index/linkedin.png" width="32"></a>
+<a href="https://github.com/yueyangwu"><img alt="" src="image/index/github.png" width="32"></a>
+<a href="https://www.instagram.com/yueywu/"><img alt="" src="image/index/insta.png" width="32"></a>
+<br>
+Designed & Developed by Yueyang Wu
+<br>
+&copy; 2017
+</div>
+</body>
+</html>
